@@ -135,7 +135,6 @@
 */
 #include<iostream>
 using namespace std;
-/*
 int main(){
 	int radius;
 	cout << "Please enter the radius! \n";
@@ -147,13 +146,4 @@ int main(){
 	cout << "Now the radius is changed to :"
 		<< radius << '\n';
 	return 0;
-}
-*/
-//为常量命名
-int main(){
-	const double pi(3.1415926);
-	int radius;
-	cout << "Please enter the radius ! \n";
-	cin >> radius;
-	
 }
